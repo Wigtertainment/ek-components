@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('my-component-library App', () => {
+describe('ek-components App', () => {
   let page: AppPage;
 
   beforeEach(() => {
