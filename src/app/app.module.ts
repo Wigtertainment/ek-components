@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { HeaderModule } from './modules/header/header.module';
 import { AppComponent } from './app.component';
+import { EkSearchBarModule } from './modules/ek-search-bar/ek-search-bar.module';
 
 
 @NgModule({
@@ -11,6 +12,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
+    EkSearchBarModule,
     HeaderModule
   ],
   providers: [],

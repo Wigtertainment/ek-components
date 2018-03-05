@@ -1,0 +1,5 @@
+<div style="position: relative; width:100%">
+  <i (click)="openInput()">S</i>
+  <input (blur)="onBlur()" style="position: absolute; bottom: 0px; right: 0px" #searchInput id="searchInput" [hidden]="!showInput"
+    class="search-input" type="text" name="search" placeholder="Search..">
+</div>
